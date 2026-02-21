@@ -1,0 +1,28 @@
+Time and space complexity:
+1. for(0-n){
+     for(0-n){
+        ---
+     }
+}
+TC=O(n^2)
+
+2. for(0-n){
+    for(0-n){
+        Binary_search(S,e,low,high)
+    }
+}
+TC=O(N^2logN)
+
+ArrayList<int>A;
+for(O-N){
+    for(O-M){
+    func(low,mid,ans+1)
+    }
+}
+for(O-M){
+    func(low,mid,ans+1)
+}
+
+#Space Complexity:
+int a,b,c,d,.......O(1)
+vector,ArrayList,dict,stack,queue,ll,....Depends on the Size ,for ex=O(n)
